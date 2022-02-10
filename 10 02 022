@@ -1,0 +1,18 @@
+#pass or fail
+sno=int(input('sno:')) 
+sname=input('sname:') 
+sgroup=input('sgroup:') 
+s1=int(input('english marks:')) 
+s2=int(input('telugu marks:')) 
+s3=int(input('environmental education marks:')) 
+s4=int(input('analytical skills marks:')) 
+s5=int(input('online business marks:')) 
+s6=int(input('accounts and financial marketing marks:')) 
+s7=int(input('operating system using unix marks:')) 
+s8=int(input('object oriented language through java marks:')) 
+if s1>=35 and s2>=35 and s3>=35 and s4>=35 and s5>=35 and s6>=35 and s7>=35 and s8>=35:
+    print("pass") 
+else:
+    print("fail")
+
+
